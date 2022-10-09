@@ -1,0 +1,184 @@
+html{
+font-size: 17px;
+text-align: justify;
+}
+h1{
+	color: white;
+	background-color: teal;
+	text-align: center;
+	font-style: oblique;
+	margin: 1px;
+}
+	
+h2{
+	color: black;
+	background-color: aquamarine;
+	text-align: center;
+	font-size: 25px;
+	margin: 1px;
+	margin-left: 10rem;
+	margin-right: 10rem;
+}
+.center{
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 20%;
+}
+h3{
+	color: black;
+	text-align: center;
+	font-style: oblique;
+}
+body{
+	background-color: lightgoldenrodyellow;
+	text-align: center;
+	display: inline;
+}
+nav a{
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	float: left;
+}
+nav{
+	background-color: black;
+	overflow: hidden;
+}
+nav a:hover{
+	color: tomato;
+}
+nav a:visited{
+	color: royalblue;
+}
+#nav-orange:hover{
+color: tomato;
+}
+img{
+    border-radius: 70%;
+	height: 25rem;
+	width: 25rem;
+	
+}
+html{
+    scroll-behavior: smooth;
+	text-align: justify;
+}
+p{
+	text-align: center;
+	margin: 10px;
+}
+#contact{
+	width: 100%;
+	height: 90px;
+	white-space: nowrap;
+	text-align: center;
+	
+	
+}
+
+.c{
+	display: inline-block;
+	width: 50%;
+	height: 100%;
+	
+}
+#our-founder section{
+	width: 100%;
+	height: 90px;
+	white-space: nowrap;
+	
+}
+.c1{
+	display: inline-flex;
+	width: 50%;
+	height: 100%;
+	
+}
+#project{
+	width: 65%;
+	height: 90px;
+	white-space: nowrap;
+	
+}
+#mydiv{
+	width: 100%;
+	text-align: justify;
+}
+#con{
+	position: relative;
+	left: 50px;
+}
+#con-info{
+	position: relative;
+	right: 100px;
+	vertical-align: top;
+}
+#sk{
+	position: relative;
+	right: 100px;
+	vertical-align: top;
+}
+#li img{
+	height: 45px;
+	width: 45px;
+	position: fixed;
+	left: 10px;
+	top: 350px;
+}
+#li{
+	position: fixed;
+	left: 10px;
+	top: 400px;
+}
+
+@media screen and (max-width: 1080px){
+	img{
+		width:100%;
+	}
+	section img{
+		width: 80%;
+	}
+	section span img{
+		width: 80%;
+		position: relative;
+		left: 50%;
+	}
+}
+
+@media screen and (max-width: 720px){
+	img{
+		width: 90%;
+		
+	}
+}
+/* #contact main{
+	display: flex;
+	height: 500px;
+	width: 500px;
+}
+#contact main img{
+	flex-direction: column;
+	flex-wrap: wrap;
+	height: 100px;
+	width: 100px;
+	flex-grow: 1;
+	flex-shrink: 1;
+}
+#contact main ul{
+	flex-direction: column;
+	flex-wrap: wrap;
+	position: relative;
+	top: -480px;
+	left: 90%;
+	flex-grow: 1;
+	flex-shrink: 1;
+} */
+	
+
+
+/* Colors
+rgba(59,130,246,0.5);
+#fff
+#e5e7eb */
